@@ -1,6 +1,6 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
-**AIM:**
+## AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -8,17 +8,17 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-**Equipment Required:**
+## Equipment Required:
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
+Software – Quartus prime
 
-**Theory**
+## Theory:
+ A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
 
-**Logic Diagram**
 
-**Procedure**
+## Procedure:
 
 1.	Type the program in Quartus software.
 
@@ -31,22 +31,18 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+## Program:
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by:SETHUKKARASI C<br> RegisterNumber:212223230201*/
 
 
-**RTL realization**
+## RTL realization:
+![rtl](/rtl.png)
+## Timing Diagram:
+![output](/Screenshot%202024-04-04%20105950.png)
 
-**Output:**
-
-**RTL**
-
-**Timing Diagram**
-
-**Result:**
-
+## Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
